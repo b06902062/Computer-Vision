@@ -1,0 +1,251 @@
+version: 1
+creator: yappi
+pid: 92272
+cmd:  morphing.py
+part: 1
+
+events: Ticks
+
+fl=(0) morphing.py
+fl=(9) morphing.py
+fl=(16) morphing.py
+fl=(15) morphing.py
+fl=(14) morphing.py
+fl=(1) morphing.py
+fl=(2) /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py
+fl=(5) /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py
+fl=(8) /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py
+fl=(4) __builtin__
+fl=(3) builtins
+fl=(7) __builtin__
+fl=(21) morphing.py
+fl=(22) __builtin__
+fl=(6) /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py
+fl=(12) builtins
+fl=(13) builtins
+fl=(20) __builtin__
+fl=(10) __builtin__
+fl=(11) numpy.core.multiarray
+fl=(17) morphing.py
+fl=(18) math
+fl=(19) math
+
+fn=(0) Morph morphing.py:101
+fn=(9) locate morphing.py:44
+fn=(16) img_value morphing.py:28
+fn=(15) result_uv morphing.py:18
+fn=(14) <listcomp> morphing.py:57
+fn=(1) difference morphing.py:79
+fn=(2) deepcopy /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py:132
+fn=(5) _deepcopy_list /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py:210
+fn=(8) _keep_alive /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py:252
+fn=(4) <method 'get' of 'dict' objects> __builtin__:0
+fn=(3) id builtins:0
+fn=(7) <method 'append' of 'list' objects> __builtin__:0
+fn=(21) output_graph morphing.py:87
+fn=(22) imwrite __builtin__:0
+fn=(6) _deepcopy_atomic /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/copy.py:190
+fn=(12) max builtins:0
+fn=(13) min builtins:0
+fn=(20) <method 'astype' of 'numpy.ndarray' objects> __builtin__:0
+fn=(10) copyMakeBorder __builtin__:0
+fn=(11) zeros numpy.core.multiarray:0
+fn=(17) Normal morphing.py:97
+fn=(18) sqrt math:0
+fn=(19) erf math:0
+
+fl=(0)
+fn=(0)
+101 50814
+cfl=(21)
+cfn=(21)
+calls=8 0
+0 23322
+cfl=(20)
+cfn=(20)
+calls=8 0
+0 3234
+cfl=(17)
+cfn=(17)
+calls=8 0
+0 150
+cfl=(9)
+cfn=(9)
+calls=16 0
+0 79791322
+cfl=(1)
+cfn=(1)
+calls=16 0
+0 398001
+
+fl=(9)
+fn=(9)
+44 33609764
+cfl=(16)
+cfn=(16)
+calls=2570004 0
+0 34637211
+cfl=(15)
+cfn=(15)
+calls=2570004 0
+0 9600990
+cfl=(14)
+cfn=(14)
+calls=1056 0
+0 1927584
+cfl=(13)
+cfn=(13)
+calls=2112 0
+0 5601
+cfl=(12)
+cfn=(12)
+calls=2112 0
+0 7878
+cfl=(11)
+cfn=(11)
+calls=16 0
+0 533
+cfl=(10)
+cfn=(10)
+calls=16 0
+0 1759
+
+fl=(16)
+fn=(16)
+28 34637211
+
+fl=(15)
+fn=(15)
+18 9600990
+
+fl=(14)
+fn=(14)
+57 1927584
+
+fl=(1)
+fn=(1)
+79 4086
+cfl=(2)
+cfn=(2)
+calls=16 0
+0 393914
+
+fl=(2)
+fn=(2)
+132 143978
+cfl=(8)
+cfn=(8)
+calls=4240 0
+0 51469
+cfl=(6)
+cfn=(6)
+calls=6336 0
+0 14563
+cfl=(5)
+cfn=(5)
+calls=4240 0
+0 393204
+cfl=(4)
+cfn=(4)
+calls=21152 0
+0 49171
+cfl=(3)
+cfn=(3)
+calls=10576 0
+0 24450
+
+fl=(5)
+fn=(5)
+210 76145
+cfl=(7)
+cfn=(7)
+calls=10560 0
+0 24454
+cfl=(2)
+cfn=(2)
+calls=10560 0
+0 384971
+cfl=(3)
+cfn=(3)
+calls=4240 0
+0 9682
+
+fl=(8)
+fn=(8)
+252 31697
+cfl=(7)
+cfn=(7)
+calls=4224 0
+0 10020
+cfl=(3)
+cfn=(3)
+calls=4256 0
+0 9752
+
+fl=(4)
+fn=(4)
+0 49171
+
+fl=(3)
+fn=(3)
+0 43885
+
+fl=(7)
+fn=(7)
+0 34474
+
+fl=(21)
+fn=(21)
+87 157
+cfl=(22)
+cfn=(22)
+calls=8 0
+0 23164
+
+fl=(22)
+fn=(22)
+0 23164
+
+fl=(6)
+fn=(6)
+190 14563
+
+fl=(12)
+fn=(12)
+0 7878
+
+fl=(13)
+fn=(13)
+0 5601
+
+fl=(20)
+fn=(20)
+0 3234
+
+fl=(10)
+fn=(10)
+0 1759
+
+fl=(11)
+fn=(11)
+0 533
+
+fl=(17)
+fn=(17)
+97 98
+cfl=(19)
+cfn=(19)
+calls=8 0
+0 24
+cfl=(18)
+cfn=(18)
+calls=8 0
+0 28
+
+fl=(18)
+fn=(18)
+0 28
+
+fl=(19)
+fn=(19)
+0 24
